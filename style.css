@@ -1,0 +1,147 @@
+/* ---------------------------------------- POLICES D'ECRITURE ---------------------------------------- */
+
+@font-face {
+    font-family: 'space_1regular';
+    src: url('polices/space_xrebron-webfont.woff2') format('woff2'),
+         url('polices/space_xrebron-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.space{
+    font-family: 'space_1regular';
+    font-weight: bold;
+}
+
+body{
+	background-color: white;
+}
+
+.page{
+	background-color: lightgrey;
+	width: 90%;
+	margin: auto;
+	padding: 5px;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+/* ---------------------------------------- DEBUT CSS HEADDER ---------------------------------------- */
+
+.connexion{
+    vertical-align: top;
+    text-align: right;
+}
+
+.connexion a{
+    vertical-align: top;
+    text-align: right;
+    font-size: 1.3em;
+    padding-bottom: 3px;
+    text-decoration: none;
+    color: black;
+    cursor: default;
+}
+
+.connexion a:hover{
+border-bottom: 3px solid #760001;
+}
+
+
+header{
+    background-color: lightgrey;
+}
+hr{
+    background: transparent url(images/hr.png) center no-repeat;
+    height: 10px;
+    width: 100%;
+    border: none;
+}
+
+nav{
+    text-align: right;
+}
+nav ul
+{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    padding-bottom: 3px;
+    text-decoration: none;
+    cursor: default;
+    color: black;
+}
+
+nav a:hover
+{
+    border-bottom: 3px solid #760001;
+    text-decoration: none;
+    color: black;
+}
+
+#banniere_image
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('images/banniere.png') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+/* ---------------------------------------- FIN CSS HEADDER ---------------------------------------- */
+
+/* ---------------------------------------- DEBUT CSS CONTENU ---------------------------------------- */
+
+
+
+
+
+
+
+
+/* ---------------------------------------- FIN CSS CONTENU ---------------------------------------- */
+
+/* ---------------------------------------- DEBUT CSS FOOTER ---------------------------------------- */
+
+.footer{
+    background-color: #e0e0e0;
+    margin-top: 15px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+.valign{
+    vertical-align:middle;
+}
+
+.marg{
+    margin-left: 10px;
+}
+
+/* ---------- LIGNE VERTICALE ---------- */
+.separation{
+    height: 100px;
+    width : 1px;
+    background: grey;
+}
+
+/* ---------------------------------------- FIN CSS CONTENU ---------------------------------------- */
